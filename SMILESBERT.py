@@ -8,7 +8,7 @@ from tokenizers import BertWordPieceTokenizer
 import os
 import json
 
-files = ["smiles/train.txt"]
+files = ["train.txt"]
 
 dataset = load_dataset(".", data_files=files, split="train")
 
