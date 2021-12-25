@@ -11,3 +11,10 @@ then
 ```
 python3 SMILESBERT.py
 ```
+
+To visualize
+
+```
+tensorboard --logdir=./smiles-bert/runs
+```
+and then go to http://localhost:6006/
