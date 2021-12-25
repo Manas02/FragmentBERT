@@ -9,5 +9,5 @@ pip3 install datasets transformers
 then 
 
 ```
-python3 SMILESBert.py
+python3 SMILESBERT.py
 ```
