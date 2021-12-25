@@ -1,6 +1,6 @@
 # Masked Language Models are Fragment Based Drug Designers
 
-Run the code as :
+Install Dependencies :
 
 ```
 pip3 install datasets transformers
