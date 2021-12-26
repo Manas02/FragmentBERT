@@ -22,7 +22,7 @@ special_tokens = [
 ]
 
 
-vocab_size = 1_000
+vocab_size = 30_000
 max_length = 256
 truncate_longer_samples = True
 
