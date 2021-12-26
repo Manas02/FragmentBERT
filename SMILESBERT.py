@@ -156,6 +156,6 @@ trainer.train()
 fill_mask = pipeline("fill-mask", model=model, tokenizer=tokenizer)
 
 # perform predictions
-example = "CN(Cc1cccs1)C(=O)Cn1c(=O)c(C#N)c2n(c1=O)c[mask]CC2"
+example = "CN(Cc1cccs1)C(=O)Cn1c(=O)c(C#N)c2n(c1=O)c [MASK] CC2"
 for prediction in fill_mask(example):
     print(prediction)
