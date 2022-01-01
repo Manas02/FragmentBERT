@@ -9,7 +9,9 @@ Install Dependencies :
 pip3 install datasets transformers
 ```
 
-then 
+```
+python3 pretrain.py
+```
 
 ```
 python3 SMILESBERT.py
