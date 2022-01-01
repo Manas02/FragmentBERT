@@ -2,7 +2,7 @@
 
 #### Step zero
 ## Unzip the `train.txt.zip`
----
+
 Install Dependencies :
 
 ```
