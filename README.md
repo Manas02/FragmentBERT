@@ -34,4 +34,4 @@ python3 predict.py
 
 To Do:
 
-- [ ] Create a Perfect `Fragment Builder`
+- [ ] **Join molecules**
