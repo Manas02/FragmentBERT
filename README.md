@@ -28,6 +28,6 @@ and then go to http://localhost:6006/
 
 To Do:
 
-- [ ] Create a Perfect `Tokenizer`
+- [x] Create a Perfect `Tokenizer`
 - [ ] Create a Perfect `Fragment Builder`
-- [ ] Train and Check the Progress of current model
+- [x] Train and Check the Progress of current model
