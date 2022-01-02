@@ -1,12 +1,15 @@
 # Masked Language Models are Fragment Based Drug Designers
 
 #### Step zero
-## Unzip the `train.txt.zip`
+
+```sh
+unzip train.txt.zip
+```
 
 Install Dependencies :
 
 ```
-pip3 install datasets transformers
+pip3 install transformers
 ```
 
 ```
@@ -14,7 +17,7 @@ python3 pretrain.py
 ```
 
 ```
-python3 SMILESBERT.py
+python3 model.py
 ```
 
 To visualize
@@ -24,10 +27,11 @@ tensorboard --logdir=./smiles-bert/runs
 ```
 and then go to http://localhost:6006/
 
+```
+python3 predict.py
+```
 ---
 
 To Do:
 
-- [x] Create a Perfect `Tokenizer`
 - [ ] Create a Perfect `Fragment Builder`
-- [x] Train and Check the Progress of current model
