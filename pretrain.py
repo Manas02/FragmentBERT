@@ -25,4 +25,4 @@ RDLogger.DisableLog('rdApp.*')
 
 with open('smiles/canonical_train_scaffold.txt', 'w') as f:
     for i in tqdm(data):
-        f.write(' '.join([mol_to_smiles(strip_dummy_atoms(mol_from_smiles(j))) for j in list(BRICS.BRICSDecompose(mol_from_smiles(i)))]) + '\\n')
+        f.write(' '.join([mol_to_smiles(strip_dummy_atoms(mol_from_smiles(j))) for j in list(BRICS.BRICSDecompose(mol_from_smiles(i)))]) + '\n')
