@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+# coding: utf-8
+# Author : Manas Mahale <manas.mahale@bcp.edu.in>
+# Large Languge Models are Fragment Based Drug Designers
+
 from tqdm import tqdm
 from rdkit import Chem
 from rdkit.Chem import BRICS
