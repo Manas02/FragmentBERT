@@ -35,3 +35,7 @@ python3 predict.py
 To Do:
 
 - [ ] **Join molecules**
+- [ ] Consistent data file path
+- [ ] Restructure and Format
+- [ ] Document
+- [ ] Web app
