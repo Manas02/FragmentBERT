@@ -1,11 +1,5 @@
 # Masked Language Models are Fragment Based Drug Designers
 
-#### Step zero
-
-```sh
-unzip train.txt.zip
-```
-
 Install Dependencies :
 
 ```
@@ -13,11 +7,11 @@ pip3 install transformers
 ```
 
 ```
-python3 pretrain.py
+python3 src/pretrain.py
 ```
 
 ```
-python3 model.py
+python3 src/model.py
 ```
 
 To visualize
@@ -36,6 +30,6 @@ To Do:
 
 - [ ] **Join molecules**
 - [ ] Consistent data file path
-- [ ] Restructure and Format
 - [ ] Document
 - [ ] Web app
+- [ ] `pip install fbdd`
