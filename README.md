@@ -24,12 +24,3 @@ and then go to http://localhost:6006/
 ```
 python3 predict.py
 ```
----
-
-To Do:
-
-- [ ] **Join molecules**
-- [ ] Consistent data file path
-- [ ] Document
-- [ ] Web app
-- [ ] `pip install fbdd`
