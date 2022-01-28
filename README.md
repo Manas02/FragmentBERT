@@ -1,5 +1,7 @@
 # Masked Language Models are Fragment Based Drug Designers
 
+Author : <manas.mahale@bcp.edu.in>
+
 Install Dependencies :
 
 ```
